@@ -1,7 +1,4 @@
-# Mario Bianchi
-### M.Sc. student in Data Science and Business Informatics at University of Pisa
-
-##### University projects
+#### University projects
 + Laboratory of Data Science: [Answers dataset - Building a Data Warehouse](https://github.com/bianchimario/LaboratoryOfDataScience)
 + Text Analytics: [Analysis of the dataset Amazon, cell phones review](https://github.com/bianchimario/TextAnalytics)
 + Distributed Data Analysis & Mining: [Analysis of the dataset Australia, Rain Tomorrow with Spark (Hadoop)](https://github.com/bianchimario/DDAM)
