@@ -1,4 +1,4 @@
-#### University Projects
+#### University Projects 🎓
 + Laboratory of Data Science: [_Answers dataset_ - Building a Data Warehouse](https://github.com/bianchimario/LaboratoryOfDataScience)
 + Text Analytics: [Analysis of the dataset _Amazon, cell phones reviews_](https://github.com/bianchimario/TextAnalytics)
 + Distributed Data Analysis & Mining: [Analysis of the dataset _Australia, Rain Tomorrow_ with Spark (Hadoop)](https://github.com/bianchimario/DDAM)
