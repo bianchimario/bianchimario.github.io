@@ -5,14 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% seo %}
+     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!-- Add icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+    
+    <style>
+    .button {
+      background-color: #e7e7e7; /* Gray */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .button2 {background-color: #008CBA;} /* Blue */
+      
+    </style>
   </head>
   
   <body>
@@ -33,10 +49,9 @@
         <p class="view"><a target="_blank" href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         <p class="view"><a target="_blank" href="https://www.linkedin.com/in/bianchi-mario/">View My LinkedIn Profile</a></p>
         {% endif %}
-
-      <!-- Add font awesome icons -->
-      <a target="_blank" href="https://www.linkedin.com/in/bianchi-mario/" class="fa fa-linkedin"></a>
-      <a target="_blank" href="{{ site.github.owner_url }}" class="fa fa-github"></a>
+      
+      <button class="button button2">LinkedIn</button>
+      <button class="button">GitHub</button>
       
       </header>
     
