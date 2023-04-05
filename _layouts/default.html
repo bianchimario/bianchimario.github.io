@@ -5,12 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     {% seo %}
+    {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     {% include head-custom.html %}
+
+    <style>
+      .fa:hover {
+          opacity: 0.9;
+      }
+
+      .fa-linkedin {
+          background: #007bb5;
+          color: white;
+      }
+
+      .fa-github {
+          background: #6841cb;
+          color: white;
+      }
+
+      .fa {
+          padding: 20px;
+          font-size: 40px;
+          width: 60px;
+          text-decoration: none;
+          margin: 5px 80px;
+      }
+  </style>
   </head>
   
   <body>
@@ -28,10 +50,10 @@
         <p>{{ site.info | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_user_page %}
-        
         <p class="view"><a target="_blank" href="{{ site.github.owner_url }}">My GitHub Profile</a></p>
         <p class="view"><a target="_blank" href="https://www.linkedin.com/in/bianchi-mario/">My LinkedIn Profile</a></p>
-        
+        <a href="https://www.linkedin.com/in/bianchi-mario/" class="fa fa-linkedin"></a>
+        <a href="{{ site.github.owner_url }}" class="fa fa-github"></a>
         {% endif %}
       
       </header>
