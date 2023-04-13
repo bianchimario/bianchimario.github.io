@@ -8,5 +8,5 @@
 + Tesi di laurea in Scienza delle Finanze: [La previdenza nel settore dello sport professionistico in Italia](https://github.com/bianchimario/bianchimario.github.io/blob/main/files/La_previdenza_nel_settore_dello_sport_professionistico.pdf)
 
 
-#### Kaggle competitions 🏁
+#### Kaggle competitions 🔷
 + [Kidney stone prediction (Playground Series - S3, E12)](https://www.kaggle.com/code/bianchimario/playground-series-s3-e12-kidney-stone-prediction)
