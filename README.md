@@ -9,5 +9,6 @@
 
 
 #### Kaggle competitions 🔷
++ [Prediction of Wild Blueberry Yield (Playground Series - S3, E12)](https://www.kaggle.com/bianchimario/blueberry-yield-ps-s3-e14-regressors)
 + [Classification on tabular Vector Borne Disease dataset (Playground Series - S3, E13)](https://www.kaggle.com/bianchimario/vector-borne-disease-dataset-ps-s3-e13)
 + [Kidney stone prediction (Playground Series - S3, E12)](https://www.kaggle.com/code/bianchimario/playground-series-s3-e12-kidney-stone-prediction)
